@@ -1,5 +1,5 @@
 {
-  "name": "@justinc/Dict",
+  "name": "@justinc/dict",
   "version": "1.0.0",
   "description": "A wrapper around plain old JS objects. Dict is a fantasy-land compliant Semigroup",
   "main": "src/index.js",
