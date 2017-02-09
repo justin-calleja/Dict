@@ -4,7 +4,7 @@ import Dict from '../src'
 test('concat is associative', t => {
   let d1 = Dict({ a: 1, b: 2 })
   let d2 = Dict({ c: 3, b: 20 })
-  let d3 = Dict({ x: 900 })
+  let d3 = Dict({ x: 900, b: 500 })
 
   t.deepEqual(d1.concat(d2).concat(d3), d1.concat(d2.concat(d3)))
   t.deepEqual(d1.concat(d3).concat(d2), d1.concat(d3.concat(d2)))
