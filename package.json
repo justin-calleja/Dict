@@ -12,7 +12,14 @@
     "patch-release": "npm version patch",
     "test": "ava"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justin-calleja/dict.git"
+  },
+  "keywords": [
+    "fantasy-land",
+    "semigroup"
+  ],
   "author": "Justin Calleja <calleja.justin@gmail.com>",
   "license": "ISC",
   "devDependencies": {
