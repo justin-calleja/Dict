@@ -1,0 +1,19 @@
+{
+  "name": "@justinc/Dict",
+  "version": "1.0.0",
+  "description": "A wrapper around plain old JS objects. Dict is a fantasy-land compliant Semigroup",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "standard",
+    "prepublish": "npm run lint && npm run test",
+    "patch-release": "npm version patch && npm publish --access=public && git push --follow-tags",
+    "test": "ava"
+  },
+  "keywords": [],
+  "author": "Justin Calleja <calleja.justin@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "standard": "^8.6.0"
+  }
+}
