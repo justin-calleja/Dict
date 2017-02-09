@@ -5,3 +5,5 @@ Install:
 `npm i @justinc/dict -S`
 
 See `repl.js` for example usage. Run REPL with `node repl.js`.
+
+`Dict` is a fantasy-land compliant Semigroup
